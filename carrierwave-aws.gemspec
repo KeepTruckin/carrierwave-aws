@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.add_dependency 'carrierwave', '~> 0.7'
-  gem.add_dependency 'aws-sdk-v1',  '~> 1.66'
+  gem.add_dependency 'aws-sdk-v1-ruby24',  '~> 1.66'
 
   gem.add_development_dependency 'rspec', '~> 3'
 end
